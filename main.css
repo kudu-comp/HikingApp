@@ -1,0 +1,38 @@
+body {
+	background-color: #08541d;
+	color: #8ab596;
+}
+
+.masthead {
+	color: lightblue;
+  height: 100vh;
+  max-height: 200px;
+  background-image: url('./images/headerbackground.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.mainpage {
+	min-height: 500px;
+}
+
+.card {
+	background-color: #08541d;
+	color: #8ab596;
+}
+
+.card-header {
+	text-align: center;
+	font-size: 2.5em;
+}
+
+.errormsg {
+	color: red;
+}
+
+.btn {
+	background-color: yellow;
+	border-color: yellow;
+	color: black;
+}
