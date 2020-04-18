@@ -8,7 +8,7 @@
 * to the next task. You can go back and forward between completed tasks.
 *
 * The first two tasks are special. The first one asks the name and adds it to the
-* header, the second asks the group name and adds it to the header.
+* header, the second asks the group name and also adds it to the header.
 *
 * To make it work include it in the body of your HTML and add script main.js
 * and Vue. Also add main.css and bootstrap for style.
@@ -141,7 +141,7 @@ var HikingApp = new Vue ({
       } else if (this.answer.toUpperCase().trim() === this.correctanswer.toUpperCase().trim()) {
         /* If answer is correct allow next task or display congratulations */
         if (this.current < this.max) {
-          if (this.last < this.max) this.last++;
+          if ((this.last < this.max) && (this.current === this.last)) this.last++;
           this.toNext();
         } else {
           this.displaySuccess();
