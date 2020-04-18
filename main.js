@@ -51,7 +51,7 @@ var HikingApp = new Vue ({
         image: "./images/image4.jpg"
       },
       {
-        message: "Hierboven zie je een oleaat. Dat moet je bovenop de kaart leggen en kijken waar je uitkomt. Gebruik weer <a href='https://topokaartnederland.nl/'target=_'blank'>de topografische kaart</a>. Of je kan de ook kaart gebruiken die je bij de vorige opdracht hebt afgedrukt. Zoek eerst het beginpunt op, dat ligt in de buurt van waar de vorige opdracht stopte. Misschien moet je in- en uitzoomen om het oleaat passend te krijgen. Succes!",
+        message: "Hierboven zie je een oleaat. Dat moet je bovenop de kaart leggen en kijken waar je uitkomt. Gebruik weer <a href='https://topokaartnederland.nl/'target=_'blank'>de topografische kaart</a>. Of je kan de ook kaart gebruiken die je bij de vorige opdracht hebt afgedrukt. Het begin punt is op de hoek bij vishandel Waasdorp. Misschien moet je in- en uitzoomen om het oleaat passend te krijgen. Succes!",
         question: "Aan het einde van het oleaat: Hoe heet de website op het witte bestelautootje (inclusief .nl)? Dat kan je vinden met Google Streetview.",
         correctanswer: "belguy.nl",
         image: "./images/oleaat.jpg"
@@ -63,9 +63,9 @@ var HikingApp = new Vue ({
         image: "./images/limonade.jpg"
       },
       {
-        message: "Dit is een opdracht met een kompas. Maar dat kan nu natuurlijk niet. Onthoud dat op de kaart het Noorden (dat is nul graden) altijd naar boven wijst. Gebruik <a href='https://www.google.com/maps/@52.4599326,4.6129105,15.25z' target='_blank'>Google Maps</a>. Je kan met Google Maps makkelijk de afstand tussen twee punten meten. Dat is handig bij deze opdracht. Begin op de kruising waar je net bent gestopt - hoek Wijkaanzeeerweg en Schoutenstraat.",
-        question: "Je staat nu midden op de kruising. Wat is het nummer van de wegwijzer (4 cijfers)?",
-        correctanswer: "5494",
+        message: "Dit is een opdracht met een kompas. Maar dat kan nu natuurlijk niet. Onthoud dat op de kaart het Noorden (dat is nul graden) altijd naar boven wijst. Gebruik <a href='https://www.google.com/maps/@52.4599326,4.6129105,15.25z' target='_blank'>Google Maps</a>. Je kan met Google Maps makkelijk de afstand tussen twee punten meten. Dat is handig bij deze opdracht.<br>Begin op de kruising waar je net bent gestopt - hoek Wijkaanzeeerweg en Schoutenstraat.",
+        question: "Je staat nu midden op de kruising. Hoever is het vanaf hier naar Alkmaar?",
+        correctanswer: "21",
         image: "./images/kompas.png"
       },
       {
